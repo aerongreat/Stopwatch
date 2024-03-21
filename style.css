@@ -1,0 +1,64 @@
+body{
+  overflow-y: hidden;
+}
+#stopwatch_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+#inside_container{
+text-align: center;
+background: rgba(255, 255, 255, 0.87);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8.4px);
+-webkit-backdrop-filter: blur(8.4px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+padding:180px;
+}
+img{
+  height: 10em;
+}
+h1{
+  margin-bottom: 0px;
+  color: rgb(94, 94, 113);
+}
+h1, #display{
+  font-size: 66px;
+}
+#display{
+  font-weight: 600;
+}
+small{
+  font-size:medium;
+  color: rgba(0, 0, 0, 0.671);
+}
+button{
+  font-size: 30px;
+  padding:10px 20px;
+  border: none;
+  border-radius: 12px;
+  margin-right: 12px;
+  color: white;
+  font-weight: 600;
+}
+#startBtn{
+  background-color: #04AA6D; 
+}
+#startBtn:hover{
+  background-color: #108a5d; 
+}
+#stopBtn{
+  background-color: #f44336;
+}
+#stopBtn:hover{
+  background-color: #c72318; 
+}
+#resetBtn{
+  background-color: #008CBA;
+}
+#resetBtn:hover{
+  background-color: #046f93;
+}
